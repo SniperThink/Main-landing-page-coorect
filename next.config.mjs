@@ -9,10 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // Adding experimental feature to fix multiple lockfiles warning
-  experimental: {
-    outputFileTracingRoot: "c:/Users/shiva/Downloads/main-website/main-website",
-  }
+  // Remove experimental outputFileTracingRoot as it causes issues on Vercel
+  output: 'standalone',
 }
 
 export default nextConfig
