@@ -16,10 +16,8 @@
 
 ## Steps to Redeploy:
 
-1. Commit all the changes:
+1. Push the committed changes to your remote repository:
    ```bash
-   git add .
-   git commit -m "Fix Vercel deployment configuration"
    git push origin main
    ```
 
